@@ -1,0 +1,10 @@
+C:\python35\Scripts>pyinstaller.exe --add-data="C:\python35\Lib\site-packages\jedi;jedi" --add-data="C:\python35\Lib\site-packages\plotly;plotly" --onefile --noconsole F:\ftp_code\ftp_main.py
+
+
+E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile gov_code.py
+
+
+E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile --icon="E:\\spyder_code\\New_folder\\multipath_test\\favicon.ico" gov_code.py
+
+
+E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile --icon="E:\\spyder_code\\New_folder\\multipath_test\\favicon.ico" gov_code.py
