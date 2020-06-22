@@ -7,4 +7,16 @@ E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile gov_code.py
 E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile --icon="E:\\spyder_code\\New_folder\\multipath_test\\favicon.ico" gov_code.py
 
 
-E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile --icon="E:\\spyder_code\\New_folder\\multipath_test\\favicon.ico" gov_code.py
+E:\spyder_code\New_folder\multipath_test>pyinstaller --onefile --noconsole --icon="E:\\spyder_code\\New_folder\\multipath_test\\favicon.ico" gov_code.py
+
+
+
+
+Set fp [open E:*.txt w]
+Puts $fp [mrd address length]
+Close $fp
+
+
+
+###  To install a package
+python -m pip install --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org --upgrade setuptools
